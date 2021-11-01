@@ -10,10 +10,6 @@ const Container = styled.div`
   svg {
     width: 62.5vw;
   }
-
-  &::after {
-    position: relative;
-  }
 `;
 
 const ImgContainer = styled.div``;
@@ -21,7 +17,7 @@ const ImgContainer = styled.div``;
 const ImgLogoContainer = styled.div`
   position: absolute;
   top: 12rem;
-  right: 5rem;
+  right: -5rem;
 `;
 
 export default { Container, ImgContainer, ImgLogoContainer };

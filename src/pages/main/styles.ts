@@ -9,7 +9,7 @@ const Container = styled.main`
   padding: 0 16rem;
 
   @media (min-width: 1536px) {
-    align-items: center;
+    padding: 0 45rem;
   }
 
   @media (max-width: 996px) {
