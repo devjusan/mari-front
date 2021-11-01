@@ -1,9 +1,9 @@
 import React from 'react';
 import Styles from './styles';
-import { ReactComponent as AsideSvg } from '../../assets/imgs/about.svg';
+import { ReactComponent as AsideSvg } from '../../assets/imgs/phone.svg';
 
 const About: React.FC = () => (
-  <Styles.Container>
+  <Styles.Container id="use">
     <Styles.AsideContent>
       <Styles.TitleContainer>
         <Styles.Title>Como Utilizar a Assistente Virtual</Styles.Title>

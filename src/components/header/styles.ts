@@ -16,13 +16,15 @@ const Header = styled.header`
     list-style: none;
   }
 
-  nav ul li {
+  nav ul li,
+  a {
     cursor: pointer;
     font-size: 1.4rem;
     color: ${variables.colorSecondary};
     line-height: 24px;
 
     transition: color 0.3s ease;
+    text-decoration: none;
   }
 
   nav ul li:hover {
