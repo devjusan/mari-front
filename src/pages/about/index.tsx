@@ -10,13 +10,13 @@ const About: React.FC = () => (
       </Styles.TitleContainer>
       <Styles.TextContainer>
         <Styles.Text>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus.
+          No canto inferior direito, de cor roxa, encontra-se o botão para
+          iniciar o chat com a assistente virtual Mari. Ao iniciar, deverá ser
+          fornecidas as informações sobre o seu caso.
         </Styles.Text>
         <Styles.Text>
-          Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-          Nulla consequat massa quis enim.
+          Certifique-se de informar os seus dados de acordo com o padrão
+          fornecido pela IA
         </Styles.Text>
       </Styles.TextContainer>
     </Styles.AsideContent>

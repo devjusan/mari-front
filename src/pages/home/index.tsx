@@ -13,8 +13,8 @@ const Home: React.FC = () => (
           das vítimas de abuso sexual. Por meio da Inteligência Artificial da
           API da IBM, Watson Assistant, a Mari proporciona o máximo de conforto
           e confiança para as pessoas que passaram por algum tipo de abuso, seja
-          sexual ou doméstico, e que desejam prestar depoimento, evitando
-          perguntas constrangedoras e proporcionando acolhimento
+          sexual ou doméstico que desejam prestar depoimento, evitando perguntas
+          constrangedoras e proporcionando acolhimento.
         </Styles.Text>
       </Styles.TextContainer>
     </Styles.AsideContent>
