@@ -2,6 +2,11 @@ import styled from 'styled-components';
 import variables from '../../utils/variables';
 
 const Header = styled.header`
+  display: flex;
+  align-items: center;
+
+  gap: 0 26rem;
+
   padding: 1.8rem 0;
 
   nav ul {
@@ -25,4 +30,10 @@ const Header = styled.header`
   }
 `;
 
-export default { Header };
+const Title = styled.h2`
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+  color: #37447e;
+`;
+
+export default { Header, Title };

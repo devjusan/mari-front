@@ -1,10 +1,11 @@
-import './App.css';
+import React from 'react';
+import Main from './pages/main';
+import Global from './styles/global';
 
-function App() {
-  return (
-    <div>aa 
-    </div>
-  );
-}
+const App: React.FC = () => (
+  <>
+    <Global /> <Main />;
+  </>
+);
 
 export default App;
