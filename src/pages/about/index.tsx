@@ -20,9 +20,9 @@ const About: React.FC = () => (
         </Styles.Text>
       </Styles.TextContainer>
     </Styles.AsideContent>
-    <Styles.LeftContainer>
+    <Styles.RightContainer>
       <AsideSvg />
-    </Styles.LeftContainer>
+    </Styles.RightContainer>
   </Styles.Container>
 );
 

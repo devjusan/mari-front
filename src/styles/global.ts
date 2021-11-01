@@ -9,11 +9,12 @@ const Global = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
     }
-    
-    body {
-        overflow-x: hidden;
-    }
 
+    main {
+       overflow-x: hidden ;
+       overflow-y: hidden;
+    }
+    
     h1 {
         font-weight: 500;
         font-size: 5rem;
@@ -29,9 +30,20 @@ const Global = createGlobalStyle`
         font-size: 1.8rem;
         line-height: 3rem;
         color: ${variables.colorSecondary};
+
     }
 
-    
+    @media (max-width: 736px) {
+        h1 {
+            font-size: 3.5rem;
+            line-height: 4.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        line-height: 2.5rem;
+        }
+    }    
 `;
 
 export default Global;

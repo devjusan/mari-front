@@ -17,7 +17,10 @@ const AsideContent = styled.aside`
   gap: 2rem;
 
   width: 54rem;
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
+  @media (max-width: 726px) {
+    width: 100%;
+  }
 `;
 
 const TitleContainer = styled.div``;

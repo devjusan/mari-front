@@ -8,8 +8,6 @@ const Container = styled.section`
   align-items: center;
   gap: 2rem;
 
-  width: 100%;
-
   height: 50vh;
 `;
 
@@ -21,7 +19,10 @@ const AsideContent = styled.aside`
 
   width: 54rem;
   height: 100%;
-  margin-bottom: 20rem;
+
+  @media (max-width: 726px) {
+    width: 100%;
+  }
 `;
 
 const TitleContainer = styled.div``;
@@ -36,7 +37,7 @@ const TextContainer = styled.div`
 
 const Text = styled.p``;
 
-const LeftContainer = styled.div`
+const RightContainer = styled.div`
   position: absolute;
   right: 0;
 
@@ -45,6 +46,10 @@ const LeftContainer = styled.div`
   @media (max-width: 1160px) {
     position: relative;
     right: 0;
+  }
+
+  @media (max-width: 726px) {
+    display: none;
   }
 `;
 
@@ -55,5 +60,5 @@ export default {
   AsideContent,
   Text,
   TextContainer,
-  LeftContainer,
+  RightContainer,
 };

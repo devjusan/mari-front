@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Container = styled.main`
   position: relative;
-
   display: flex;
   flex-flow: nowrap column;
 
@@ -14,6 +13,10 @@ const Container = styled.main`
 
   @media (max-width: 996px) {
     padding: 0 5rem;
+  }
+
+  @media (max-width: 626px) {
+    padding: 0 1rem;
   }
 `;
 

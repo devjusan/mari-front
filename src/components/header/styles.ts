@@ -34,6 +34,10 @@ const Title = styled.h2`
   font-size: 2.6rem;
   line-height: 3.8rem;
   color: #37447e;
+
+  @media (max-width: 726px) {
+    display: none;
+  }
 `;
 
 export default { Header, Title };

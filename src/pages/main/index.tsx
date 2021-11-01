@@ -10,7 +10,7 @@ const Main: React.FC = () => (
     <Header />
     <Home />
     <About />
-    <BackgroundCircle />;
+    <BackgroundCircle />
   </Styles.Container>
 );
 
