@@ -10,9 +10,8 @@ const Global = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
     }
 
-    main {
+    html {
        overflow-x: hidden ;
-       overflow-y: hidden;
     }
     
     h1 {
