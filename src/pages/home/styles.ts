@@ -9,6 +9,10 @@ const Container = styled.section`
   justify-content: center;
 
   height: 100vh;
+
+  @media (max-width: 726px) {
+    height: 50vh;
+  }
 `;
 
 const AsideContent = styled.aside`
