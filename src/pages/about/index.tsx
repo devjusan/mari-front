@@ -6,7 +6,7 @@ const About: React.FC = () => (
   <Styles.Container>
     <Styles.AsideContent>
       <Styles.TitleContainer>
-        <Styles.Title>Light, Fast & Powerful</Styles.Title>
+        <Styles.Title>Como Utilizar a Assistente Virtual</Styles.Title>
       </Styles.TitleContainer>
       <Styles.TextContainer>
         <Styles.Text>

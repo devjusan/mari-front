@@ -5,17 +5,16 @@ const Home: React.FC = () => (
   <Styles.Container>
     <Styles.AsideContent>
       <Styles.TitleContainer>
-        <Styles.Title>
-          Introduce Your Product Quickly & Effectively
-        </Styles.Title>
+        <Styles.Title>Conheça a Assistente Virtual Mari</Styles.Title>
       </Styles.TitleContainer>
       <Styles.TextContainer>
         <Styles.Text>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla
-          consequat massa quis enim.
+          A Mari é uma assistente virtual que visa a integridade física e mental
+          das vítimas de abuso sexual. Por meio da Inteligência Artificial da
+          API da IBM, Watson Assistant, a Mari proporciona o máximo de conforto
+          e confiança para as pessoas que passaram por algum tipo de abuso, seja
+          sexual ou doméstico, e que desejam prestar depoimento, evitando
+          perguntas constrangedoras e proporcionando acolhimento
         </Styles.Text>
       </Styles.TextContainer>
     </Styles.AsideContent>
