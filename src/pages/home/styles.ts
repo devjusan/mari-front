@@ -5,8 +5,8 @@ const Container = styled.section`
 
   display: flex;
   flex-flow: nowrap column;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
 
   height: 100vh;
 

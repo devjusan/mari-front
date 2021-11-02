@@ -3,11 +3,7 @@ import styled from 'styled-components';
 const Container = styled.main`
   position: relative;
 
-  display: flex;
-  flex-flow: nowrap column;
-
-  max-width: 100vw;
-  min-height: 100vh;
+  overflow: hidden;
 
   padding: 0 16rem;
 

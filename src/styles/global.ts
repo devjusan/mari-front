@@ -9,6 +9,10 @@ const Global = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
     }
+
+    main {
+        overflow-x: hidden;
+    }
     
     h1 {
         font-weight: 500;

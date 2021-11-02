@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   position: absolute;
+
   top: -8rem;
   right: -20rem;
 
