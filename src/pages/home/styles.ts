@@ -11,7 +11,7 @@ const Container = styled.section`
   height: 100vh;
 
   @media (max-width: 726px) {
-    height: 50vh;
+    height: calc(100% + 20rem);
   }
 `;
 
